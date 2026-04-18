@@ -106,3 +106,20 @@ button {
     padding: 20px;
     background: #020617;
 }
+/* IMAGENES DEL HERO */
+.hero-imgs {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.hero-imgs img {
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hero-imgs img:hover {
+    transform: scale(1.05);
+}
