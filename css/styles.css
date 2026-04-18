@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI';
-    background: #0f172a;
+   background: #f1f5f9; 
     color: #fff;
 }
 
@@ -52,7 +52,8 @@ body {
 /* TARJETAS */
 .card {
     max-width: 900px;
-    background: #1e293b;
+    background: #ffffff;
+    color: #000;
     padding: 25px;
     border-radius: 15px;
 }
@@ -96,7 +97,7 @@ input {
 button {
     margin-top: 10px;
     padding: 10px;
-    background: #38bdf8;
+   background: #22c55e; 
     border: none;
 }
 
