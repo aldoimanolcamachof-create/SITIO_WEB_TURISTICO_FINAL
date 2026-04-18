@@ -24,8 +24,16 @@ body {
     margin: 10px;
     color: white;
     text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #1e293b;
+    transition: 0.3s;
 }
 
+.nav a:hover {
+    background: #38bdf8;
+    color: black;
+}
 /* HERO */
 .hero {
     height: 90vh;
