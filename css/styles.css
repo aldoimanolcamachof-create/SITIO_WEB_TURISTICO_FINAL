@@ -12,14 +12,9 @@ body {
 
 /* HEADER FIJO */
 .header {
-    background: #020617;
     text-align: center;
     padding: 20px;
-}
-
-.header h1 {
-    margin-bottom: 15px;
-    font-size: 28px;
+    margin-bottom: 20px;
 }
 .nav {
     display: flex;
