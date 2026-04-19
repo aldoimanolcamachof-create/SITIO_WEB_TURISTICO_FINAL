@@ -9,7 +9,7 @@
 /* BODY */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+    background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
     color: #0f172a;
 }
 
@@ -39,7 +39,8 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #0f172a;
+    background: #2563eb;
+    color: white;
     padding: 8px 14px;
     border-radius: 8px;
     background: #e2e8f0;
@@ -167,4 +168,8 @@ button:hover {
     .hero {
         height: 60vh;
     }
+}
+.nav {
+    background:#ecfdf5;
+    padding: 10px;
 }
