@@ -32,16 +32,16 @@ body {
 
 /* NAV */
 .nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    .nav {
+    background: #22c55e; 
+    padding: 10px;
 }
+   
 
 .nav a {
     text-decoration: none;
     background: #2563eb;
-   
+   color: white;
     padding: 10px 15px;
     border-radius: 8px;
     transition: 0.3s;
