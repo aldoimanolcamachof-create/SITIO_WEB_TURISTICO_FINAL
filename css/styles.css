@@ -9,7 +9,7 @@
 /* BODY */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
- background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+ background: linear-gradient(to bottom, #e0f2fe, #f8fafc); !important;
     min-height: 100vh;
 
 }
