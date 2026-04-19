@@ -38,19 +38,17 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #0f172a;
+    color: white;
     padding: 8px 14px;
     border-radius: 8px;
-    background: #e2e8f0;
+    background: #2563eb;
     transition: 0.3s;
 }
 
 .nav a:hover {
-    background: #38bdf8;
-    color: white;
+    background: #1d4ed8;
     transform: translateY(-2px);
 }
-
 /* HERO */
 .hero {
     height: 80vh;
