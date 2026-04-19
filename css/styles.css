@@ -6,37 +6,25 @@
 
 body {
     font-family: 'Segoe UI';
-   background: #f1f5f9; 
+ background: #e0f2fe;
     color: #fff;
 }
 
 /* HEADER FIJO */
 .header {
+   background: #0284c7;
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
 }
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 10px;
-    margin-top: 10px;
-}
+
 
 .nav a {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #1e293b;
+    background: #0369a1;
     color: white;
-    text-decoration: none;
+    padding: 10px 15px;
     border-radius: 8px;
-    font-size: 14px;
-    white-space: nowrap;
-    transition: 0.3s;
+    text-decoration: none;
 }
-
 .nav a:hover {
     background: #22c55e;
     color: black;
@@ -66,11 +54,10 @@ body {
 
 /* TARJETAS */
 .card {
-    max-width: 900px;
-    background: #ffffff;
-    color: #000;
-    padding: 25px;
-    border-radius: 15px;
+    background: white;
+    color: #0c4a6e;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* GRID */
