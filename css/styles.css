@@ -8,7 +8,7 @@
 /* BODY */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+    background: linear-gradient(to bottom, #e0f2fe,  #2563eb);
     color: #0f172a;
 }
 
@@ -31,10 +31,9 @@ body {
 
 /* NAV */
 .nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    background: #2563eb;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .nav a {
