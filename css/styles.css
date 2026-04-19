@@ -165,3 +165,7 @@ button:hover {
         height: 60vh;
     }
 }
+nav {
+    background:#22c55e;
+    padding: 10px;
+}
