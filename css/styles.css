@@ -16,7 +16,7 @@ body {
 .header {
     position: sticky;
     top: 0;
-    background:#22c55e;
+    background:#0f172a;
     backdrop-filter: blur(10px);
     text-align: center;
     padding: 15px;
