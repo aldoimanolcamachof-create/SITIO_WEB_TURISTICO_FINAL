@@ -40,8 +40,8 @@ body {
 
 .nav a {
     text-decoration: none;
-    background: #f97316;
-    
+   background: #f97316;
+    color: white;
     padding: 8px 14px;
     border-radius: 8px;
     background: #e2e8f0;
