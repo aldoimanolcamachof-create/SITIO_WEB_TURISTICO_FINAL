@@ -24,10 +24,10 @@ body {
 }
 
 .header h1 {
-    margin-bottom: 10px;
-    font-size: 28px;
+ color: #2563eb;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
 }
-
 /* NAV */
 .nav {
     display: flex;
