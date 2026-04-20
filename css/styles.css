@@ -31,25 +31,25 @@ body {
 
 /* NAV */
 .nav {
-  .nav {
-    background: linear-gradient(to right, #f97316, #ea580c);
-    padding: 12px;
-    text-align: center;
+    margin-top: 10px;
 }
+
+
+ 
 .nav a {
-   background: rgba(255,255,255,0.2); /* efecto glass */
+    background: #2563eb; /* azul principal */
     color: white;
     padding: 10px 15px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
+ 
 }
    .nav a:hover {
-    background: white;
-    color: #ea580c;
-    transform: translateY(-2px);
+        background: #1d4ed8;
+   
 }
 
 /* HERO */
