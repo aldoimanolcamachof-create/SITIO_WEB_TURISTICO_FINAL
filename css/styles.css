@@ -1,92 +1,106 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-   body {
-    background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+     background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
 }
+
+/* HEADER FIJO */
 .header {
-    background: #0f172a; 
-    color: white;
+    position: sticky;
+    top: 0;
+    background: #020617;
+    padding: 15px;
     text-align: center;
-    padding: 20px;
+    z-index: 1000;
 }
-
-
-.nav {
-    margin-top: 10px;
-}
-
 
 .nav a {
-    background: #2563eb; 
+    margin: 10px;
     color: white;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 8px;
     text-decoration: none;
-    display: inline-block;
-    transition: 0.3s;
 }
 
-/* HOVER */
-.nav a:hover {
-    background: #1d4ed8;
-    transform: translateY(-2px);
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url('../img/inicio1.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-texto {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* SECCIONES */
 .seccion {
-    padding: 40px;
+    padding: 60px 20px;
     display: flex;
     justify-content: center;
 }
 
 /* TARJETAS */
 .card {
-    background: #fef9c3;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 800px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 900px;
+    background:#fef9c3;
+    padding: 25px;
+    border-radius: 15px;
 }
 
-/* IMÁGENES */
-.card img {
-    width: 48%;
-    margin: 1%;
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid img {
+    width: 100%;
     border-radius: 10px;
-}
-
-
-.galeria img {
-    width: 30%;
-}
-
-
-button {
-    background: #2563eb;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
     transition: 0.3s;
 }
 
-button:hover {
-    background: #1d4ed8;
+.grid img:hover {
+    transform: scale(1.05);
+}
+
+/* GALERIA */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FORM */
+input {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
 }
 
 /* FOOTER */
 .footer {
-    background: #0f172a;
-    color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    background: #020617;
 }
