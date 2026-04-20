@@ -31,24 +31,24 @@ body {
 
 /* NAV */
 .nav {
-    background:  #f97316;
-    padding: 10px;
-    border-radius: 10px;
+  .nav {
+    background: linear-gradient(to right, #f97316, #ea580c);
+    padding: 12px;
+    text-align: center;
 }
-
 .nav a {
-    text-decoration: none;
-   background: #fb923c; 
+   background: rgba(255,255,255,0.2); /* efecto glass */
     color: white;
-    padding: 8px 14px;
-    border-radius: 8px;
-    background: #e2e8f0;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
     transition: 0.3s;
 }
-
-.nav a:hover {
-    background: #38bdf8;
-    color: white;
+   .nav a:hover {
+    background: white;
+    color: #ea580c;
     transform: translateY(-2px);
 }
 
