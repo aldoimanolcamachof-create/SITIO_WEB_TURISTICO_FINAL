@@ -31,14 +31,15 @@ body {
 
 /* NAV */
 .nav {
-    background: #2563eb;
+    background:  #f97316;
     padding: 10px;
     border-radius: 10px;
 }
 
 .nav a {
     text-decoration: none;
-    color: #0f172a;
+   background: #fb923c; 
+    color: white;
     padding: 8px 14px;
     border-radius: 8px;
     background: #e2e8f0;
