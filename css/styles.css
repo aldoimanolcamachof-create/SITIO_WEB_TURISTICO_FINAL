@@ -5,7 +5,9 @@
 }
 
 body {
-     background: linear-gradient(to bottom, #e0f2fe, #f8fafc);
+    font-family: 'Segoe UI';
+    background: #0f172a;
+    color: #fff;
 }
 
 /* HEADER FIJO */
@@ -50,7 +52,7 @@ body {
 /* TARJETAS */
 .card {
     max-width: 900px;
-    background:#fef9c3;
+    background: #fef3c7;
     padding: 25px;
     border-radius: 15px;
 }
